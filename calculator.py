@@ -12,3 +12,6 @@ class Calculator:
         if b == 0:
             return 'Error: Division by zero'
         return a / b
+
+    def multiply(self, a, b):
+        return a * b
